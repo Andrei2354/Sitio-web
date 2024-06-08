@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#mainServ{
+    padding-top: 5%;
+    height: 240vh;
+    width: 100%;
+    background-color: beige;
+}
+#cuerpoServ{
+    display: grid;
+    grid-template-areas: "Titulo"
+                         "Caja1"
+                         "Caja2"
+                         "Caja3"
+                         "Caja4"
+                         "tick";
+    grid-template-columns: 1fr;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3%;
+}
+#box1{
+    grid-area: Titulo;
+    padding-bottom: 5%;
+}
+#box2{
+    grid-area: Caja1;
+}
+#box3{
+    grid-area: Caja2;
+}
+#box4{
+    grid-area: Caja3;
+}
+#box5{
+    grid-area: Caja4;
+}
+#box6{
+    grid-area: tick;
+    padding-top: 5%;
+}
+#box6 section h3{
+    background-color: #333;
+    border-radius: 15px;
+    width: 170px;
+    height: 30px;
+}
+#cuerpoServ .cajas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#cuerpoServ img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#cuerpoServ h3{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: honeydew;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #969696;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: rgb(202, 234, 202);
+    color: #333;
+}
+tr:hover {
+    background-color: #f9f9f9;
+}
+@media (max-width: 990px){
+    #mainServ{
+        height: 340vh;
+        padding-top: 15%;
+    }
+    .boxes , #box2, #box4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes, #box3, #box5{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .imgHorario{
+        width: 300px;
+        height: 180px;
+    }
+}
+@media (max-width: 1400px){
+    #mainServ{
+        height: 140vh;
+        padding-top: 15%;
+    }
+}

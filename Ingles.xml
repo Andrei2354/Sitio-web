@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <animales>
+    <animal1>
+        <name>Lion</name>
+        <age>5</age>
+        <quantity>3</quantity>
+        <description>The lion is known as the king of the jungle and is one of the most iconic big cats.</description>
+    </animal1>
+    <animal1>
+        <name>Elephant</name>
+        <age>10</age>
+        <quantity>2</quantity>
+        <description>The elephant is the largest land mammal, known for its great intelligence and memory.</description>
+    </animal1>
+    <animal1>
+        <name>Tiger</name>
+        <age>4</age>
+        <quantity>4</quantity>
+        <description>The tiger is a solitary hunter and the largest cat in the world, famous for its striped fur.</description>
+    </animal1>
+    <animal1>
+        <name>Giraffe</name>
+        <age>7</age>
+        <quantity>5</quantity>
+        <description>The giraffe is the tallest animal in the world, recognized for its long neck and legs.</description>
+    </animal1>
+    <animal1>
+        <name>Monkey</name>
+        <age>3</age>
+        <quantity>12</quantity>
+        <description>The monkey is an agile and social primate, known for its intelligence and climbing abilities.</description>
+    </animal1>
+    <animal1>
+        <name>Rhinoceros</name>
+        <age>8</age>
+        <quantity>2</quantity>
+        <description>The rhinoceros is a large and robust mammal, characterized by its thick skin and horns.</description>
+    </animal1>
+    <animal1>
+        <name>Polar Bear</name>
+        <age>6</age>
+        <quantity>3</quantity>
+        <description>The polar bear is a large Arctic predator, adapted to live in cold climates and hunt on ice.</description>
+    </animal1>
+    <animal1>
+        <name>Zebra</name>
+        <age>5</age>
+        <quantity>7</quantity>
+        <description>The zebra is known for its distinctive black and white stripes, which are unique to each individual.</description>
+    </animal1>
+    <animal1>
+        <name>Penguin</name>
+        <age>4</age>
+        <quantity>10</quantity>
+        <description>The penguin is a flightless bird adapted to aquatic life, famous for its waddling walk on land.</description>
+    </animal1>
+    <animal1>
+        <name>Gorilla</name>
+        <age>9</age>
+        <quantity>3</quantity>
+        <description>The gorilla is the largest and strongest primate, known for its complex social behavior and strength.</description>
+    </animal1>
+    </animales>

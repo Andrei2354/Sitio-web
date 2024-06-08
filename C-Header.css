@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.enlaces a:hover{
+    color: black;
+}
+.movilTop a:hover{
+    color: black;
+}
+
+header{
+    background-color: rgba(171, 166, 191);
+    position: fixed; /* ancla el header */
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.barraTop {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barraTop .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.barraTop .enlaces {
+    display: flex;
+    gap: 2rem;
+}
+.barraTop .buscador_btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.accion_btn {
+    background-color:  rgba(89, 87, 117, 0.9);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.accion_btn:hover {
+    scale: 1.05;
+    color: black;
+}
+/*Menu Movil*/
+.movilTop {
+    position: absolute;
+    right: 1px;
+    top: 60px;
+    width: 300px;
+    background: rgba(6, 6, 6, 0.5);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    display: none;
+}
+
+.movilTop li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 990px){
+    .barraTop .enlaces,
+    .barraTop .accion_btn{
+        display: none;
+    }
+    .barraTop .buscador_btn{
+        display: block;
+        height: 100%;
+    }
+    .barraTop .buscador_btn:hover .movilTop{
+        display: block;
+    }
+}

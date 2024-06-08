@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+/*----------------------------------------------------------------------------------------------------------------- */
+#mainAndrei {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "img"
+                         "separador1"
+                         "img2"
+                         "separador2"
+                         "img3"
+                         "separador3";
+    grid-template-columns: auto;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*----------------------------------------------------------------------------------------------------------------- */
+.img{
+    grid-area: img;
+    width: 100%;
+    background-color: #000;
+    background-image: url('https://content.nationalgeographic.com.es/medio/2018/05/18/tigre-siberiano_3629e6ef_900x600.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#Introducción1{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Contenido1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#Contenido1 h3{
+    background-color:   rgba(89, 87, 117, 0.9);
+    border-radius: 30px;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Contenido1 p{
+    background-color:rgba(171, 166, 191, 0.8);
+    border-radius: 30px;
+    height: 25px;
+    width: 100%;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */ 
+.img2{
+    grid-area: img2;
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    background-image: url('f-1164218.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.Introducción{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(171, 166, 191, 0.8);
+    border-radius: 30px;
+    height: 50%;
+    width: 50%;
+}
+.Contenido h3{
+    margin-bottom: 0;
+}
+.Contenido p{
+    margin: 40px;
+} 
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.img3{
+    grid-area: img3;
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    background-image: url('f-654026.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.Introducciónabajo{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 40px;
+}
+.Contenidoabajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(171, 166, 191, 0.8);
+    border-radius: 30px;
+    height: 350px;
+    width: 40%;
+}
+.Contenidoabajo h3{
+    margin-top: 30px;
+}   
+#entradas p{
+    background-color:  rgba(89, 87, 117, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#entradas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.separador1{
+    grid-area: separador1;
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.caja1{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "sec1 sec2";
+  
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+
+}
+.apartado1{
+    grid-area: sec1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.apartado2{
+    grid-area: sec2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.apartado1 h3{
+    margin: 10%;
+
+
+}
+.apartado1 p{
+    margin: 10%;
+    margin-top: 0;
+
+}
+#imagen1{
+    border-radius: 20px;
+    margin-right: 5%;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.separador2{
+    grid-area: separador2;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo{
+    display: grid;
+    grid-template-areas: "arriba-t"
+                         "abajo-t";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#arriba1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#abajo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo h3{
+    grid-area: arriba-t;
+    margin-top: 50px;
+}
+#titulo p{
+    grid-area: abajo-t;
+
+}
+#Todas-tarjetas{
+    display: grid;
+    grid-template-areas: "arriba" 
+                         "abajo";
+  
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+#arriba{
+    grid-area: arriba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+#abajo{
+    grid-area: abajo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin: 0%;
+
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
+.Tarj{
+    color: black;
+    border: solid 2px rgb(6, 6, 6);
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+.Tarj h3{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: #F1E0D6;
+    font-size: 30px;
+
+}
+.Tarj:hover{
+    scale: 1.05;
+}
+.Tarj:hover h3{
+    color: #ec8447;
+}
+#t10 {
+    background-image: url(https://www.cimformacion.com/blog/wp-content/webp-express/webp-images/uploads/2020/09/monos-zoo.jpg.webp);
+}
+#t11 {
+    background-image: url(https://landscape.coac.net/sites/default/files/styles/reducir_calidad/public/2020-03/Imatge6_Orangutans.jpg?itok=FVF5AZV3);
+    background-size: 100% 140%;
+}
+#t12 {
+    background-image: url(https://landscape.coac.net/sites/default/files/styles/reducir_calidad/public/2020-03/Imatge4%27_Orangutans.jpg?itok=O-SmJ5vk);
+    background-size: 100% 140%;
+}
+#t13 {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1bZkEJ7zw6x7nCxcv_sQPKf9P8Y93f0MBccVztuD4l_8CCV9puulpCzx5YttaMisu9_sKjKhva1Gc_KYdaZvncapOkmWwyxAsI2EQ-Mmd_YjCg9a5mPCV-Byc9YX9mDLN4JtjPgy3gQ6p/s400/Tematizacion+lobo+artico+zoo+de+la+fleche+2.JPG);
+}
+#t14 {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEbq8xo9KfWpVTe3H0GIyKkz6gBZFaVuOT-zBxBFnNXoMkITqezL4EV3wYCM5aKjtEBdP8tKi2jBfnjOAYI-GtT4mlyuS0XVuC3VLPd7Rl6WM0PnC8RwLxHoDJCHSXQfb6hU7kBbxrnTwy/s1600/Tematizacion+lobo+artico+zoo+de+la+fleche.JPG);
+}
+#t20 {
+    background-image: url(https://www.gastrolabweb.com/u/fotografias/m/2020/8/17/f768x400-2567_46470_5050.png);
+}
+#t21 {
+    background-image: url(https://zoo.cordoba.es/wp-content/uploads/2022/03/IMG_4204-1024x768.jpg);
+}
+#t22 {
+    background-image: url(https://www.zoomadrid.com/content/zoo/es/descubre-el-zoo/planea-tu-visita/donde-comer/_jcr_content/responsiveGrid/cc32_distributivecar/1_card/image.coreimg.jpeg/1655714821111/restaurante-bagaray-zoo-madrid-2.jpeg);
+}
+#t23 {
+    background-image: url(https://static.hosteltur.com/app/public/uploads/img/articles/2018/08/25/M_103516_loro-parque.jpg);
+}
+#t24 {
+    background-image: url(https://medusas.wiki/imagenes/medusas-loro-parque.jpg);
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+.separador3{
+    grid-area: separador3;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#tarjAnimales{
+    color: white;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+#nombre{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#url-animal{
+    width: 250px;
+    height: 450px;
+    border-color: #000;
+}
+#pasar1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 285%;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+}
+#pasar2{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    right: 10%;
+    top: 285%;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+}
+.tarjetas-Animales{
+    border-radius: 3px;
+    background-color: #000;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+@media (max-width: 990px){
+    .separador1{
+        height: 1000px;
+    }
+    .caja1{
+        display: grid;
+        grid-template-areas: "sec1" 
+                             "sec2";
+      
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    #imagen1{
+        height: 80%;
+        width: 80%;
+    }
+    .separador2{
+        height: 50px;
+    }
+    #cona{
+        display: none;
+    }
+    #Todas-tarjetas{
+        display: grid;
+        grid-template-areas: "arriba abajo";
+      
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }.tarjetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-top: 40px;
+    }
+    .separador3{
+        height: 1100px;
+        width: 100%;
+    }
+    #mainAndrei {
+        width: 100%;
+    }
+    .Tarj{
+        width: 150px;
+        height: 150px;
+        margin: 5%;
+    }
+    .Tarj h3{
+        font-size: 18px;
+    
+    }
+    .Introducción{
+        height: 80%;
+    }
+    .Introducción h3{
+        padding-top: 5%;
+    }
+    .Contenido{
+        height: 80%;
+        width: 80%;
+    }
+    .Contenidoabajo{
+        height: 60%;
+        width: 80%;
+        margin-right: 5%;
+    }
+} 
+@media (max-width: 1400px){
+    .separador1{
+        height: 1000px;
+    }
+    .caja1{
+        display: grid;
+        grid-template-areas: "sec1" 
+                             "sec2";
+      
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    #imagen1{
+        height: 80%;
+        width: 80%;
+    }
+    .separador2{
+        height: 50px;
+    }
+    #cona{
+        display: none;
+    }
+    #Todas-tarjetas{
+        display: grid;
+        grid-template-areas: "arriba abajo";
+      
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-top: 40px;
+    }
+    .separador3{
+        height: 1600px;
+        width: 100%;
+    }
+    #mainAndrei {
+        width: 100%;
+    }
+    .Tarj{
+        width: 250px;
+        height: 250px;
+        margin: 5%;
+    }
+    .Tarj h3{
+        font-size: 18px;
+    
+    }
+    .Introducción{
+        height: 80%;
+    }
+    .Introducción h3{
+        padding-top: 5%;
+    }
+    .Contenido{
+        height: 40%;
+        width: 80%;
+    }
+    .Contenidoabajo{
+        height: 50%;
+        width: 60%;
+        margin-right: 5%;
+    }
+} 
+

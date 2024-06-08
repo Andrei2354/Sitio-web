@@ -1,0 +1,50 @@
+{
+    "animales":[
+        { "nombre":"Guacamayo", "url":"https://i.pinimg.com/564x/50/cd/a8/50cda857b49d387ece71f82b73c987b8.jpg" },
+        { "nombre":"Hurón Albino", "url":"https://i.pinimg.com/564x/e9/52/68/e95268159c036e28d1f9a4359cccc6cc.jpg" },
+        { "nombre":"Pandas", "url":"https://i.pinimg.com/564x/52/d8/6c/52d86c5fa7e3a6666217dc722025e3ea.jpg" },
+        { "nombre":"Pavo real", "url":"https://i.pinimg.com/564x/b8/ce/d1/b8ced17461ffb4c14238a78dfd89e568.jpg" }
+    ],
+    "animales1":[    
+        { "nombre":"Rana", "url":"https://i.pinimg.com/564x/37/b1/16/37b11603b9f00574469b4d1340211320.jpg" },
+        { "nombre":"Pantera", "url":"https://i.pinimg.com/564x/2a/b9/d5/2ab9d51ae72099f93363634bbfc85878.jpg" },
+        { "nombre":"Cocodrilo albino", "url":"https://i.pinimg.com/564x/73/45/17/734517d3e59815937b03b56fd59289bb.jpg" },
+        { "nombre":"Tortuga marina", "url":"https://i.pinimg.com/564x/d9/5a/69/d95a695df356d45ddf908cc4dc5d6cbc.jpg" }
+    ],
+    "animales2":[    
+        { "nombre":"Caballo de mar", "url":"https://i.pinimg.com/564x/55/f8/d7/55f8d70231d80a42547df4b1500d0482.jpg" },
+        { "nombre":"Pingüino", "url":"https://i.pinimg.com/564x/e8/ee/ef/e8eeef82a6780b382ff52afa9aab14e1.jpg" },
+        { "nombre":"Tigre", "url":"https://i.pinimg.com/564x/35/5d/ea/355dea10e0ff218d2935d948c5283985.jpg" },
+        { "nombre":"Orcas", "url":"https://i.pinimg.com/564x/81/e2/a0/81e2a0231c6729a3f1f5db87d229acc8.jpg" }
+    ],
+    "animales3":[    
+        { "nombre":"Pandas rojos", "url":"https://i.pinimg.com/564x/fd/27/a9/fd27a9b35b7f168a4483ed7592989950.jpg" },
+        { "nombre":"Medusas", "url":"https://i.pinimg.com/564x/9d/e5/9e/9de59ec025ce778def16a589d8688dc0.jpg" },
+        { "nombre":"Tortuga de tierra", "url":"https://i.pinimg.com/564x/89/6d/14/896d14e9880957b2b4443f9e0506fcef.jpg" },
+        { "nombre":"Peces nemos", "url":"https://i.pinimg.com/564x/88/63/bf/8863bfa684eddb753964faaae9e50249.jpg" }
+    ],
+    "animals":[
+        { "nombre":"Macaw", "url":"https://i.pinimg.com/564x/50/cd/a8/50cda857b49d387ece71f82b73c987b8.jpg" },
+        { "nombre":"Albino Ferret", "url":"https://i.pinimg.com/564x/e9/52/68/e95268159c036e28d1f9a4359cccc6cc.jpg" },
+        { "nombre":"Pandas", "url":"https://i.pinimg.com/564x/52/d8/6c/52d86c5fa7e3a6666217dc722025e3ea.jpg" },
+        { "nombre":"Peacock", "url":"https://i.pinimg.com/564x/b8/ce/d1/b8ced17461ffb4c14238a78dfd89e568.jpg" }
+    ],
+    "animals1":[    
+        { "nombre":"Frog", "url":"https://i.pinimg.com/564x/37/b1/16/37b11603b9f00574469b4d1340211320.jpg" },
+        { "nombre":"Panther", "url":"https://i.pinimg.com/564x/2a/b9/d5/2ab9d51ae72099f93363634bbfc85878.jpg" },
+        { "nombre":"Albino Crocodile", "url":"https://i.pinimg.com/564x/73/45/17/734517d3e59815937b03b56fd59289bb.jpg" },
+        { "nombre":"Sea Turtle", "url":"https://i.pinimg.com/564x/d9/5a/69/d95a695df356d45ddf908cc4dc5d6cbc.jpg" }
+    ],
+    "animals2":[    
+        { "nombre":"Seahorse", "url":"https://i.pinimg.com/564x/55/f8/d7/55f8d70231d80a42547df4b1500d0482.jpg" },
+        { "nombre":"Penguin", "url":"https://i.pinimg.com/564x/e8/ee/ef/e8eeef82a6780b382ff52afa9aab14e1.jpg" },
+        { "nombre":"Tiger", "url":"https://i.pinimg.com/564x/35/5d/ea/355dea10e0ff218d2935d948c5283985.jpg" },
+        { "nombre":"Orcas", "url":"https://i.pinimg.com/564x/81/e2/a0/81e2a0231c6729a3f1f5db87d229acc8.jpg" }
+    ],
+    "animals3":[    
+        { "nombre":"Red Pandas", "url":"https://i.pinimg.com/564x/fd/27/a9/fd27a9b35b7f168a4483ed7592989950.jpg" },
+        { "nombre":"Jellyfish", "url":"https://i.pinimg.com/564x/9d/e5/9e/9de59ec025ce778def16a589d8688dc0.jpg" },
+        { "nombre":"Land Turtle", "url":"https://i.pinimg.com/564x/89/6d/14/896d14e9880957b2b4443f9e0506fcef.jpg" },
+        { "nombre":"Clownfish", "url":"https://i.pinimg.com/564x/88/63/bf/8863bfa684eddb753964faaae9e50249.jpg" }
+    ]
+}

@@ -51,7 +51,7 @@ tr:nth-child(11){
     }
 
 }
-@media (max-width: 1400px){
+@media(min-width: 991) and  (max-width: 1400px){
     #mainanimales{
         height: 80vh;
         padding-top: 60px;

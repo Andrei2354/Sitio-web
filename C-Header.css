@@ -23,7 +23,6 @@ a{
 header{
     background-color: rgba(171, 166, 191);
     position: fixed; /* ancla el header */
-    padding: 0 2rem;
     width: 100%;
 }
 

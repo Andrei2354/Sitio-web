@@ -38,7 +38,20 @@ footer img{
 .icono{
     width: 40px;
     margin: 5px;
-} 
+}  
+@media(max-width: 1400px) and (min-width: 991){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+    }
+    footer ul{
+        padding-top: 40px; 
+    }
+}  
 @media(max-width: 990px){
     footer{
         display: flex;
@@ -51,17 +64,4 @@ footer img{
     footer ul{
         padding-top: 40px;
     }
-} 
-@media(max-width: 1400px){
-    footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 500px;
-    }
-    footer ul{
-        padding-top: 40px;
-    }
-} 
+}

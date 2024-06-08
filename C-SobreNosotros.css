@@ -101,7 +101,7 @@
         height: 250vh;
     }
 }
-@media (max-width: 1400px){
+@media(min-width: 991) and (max-width: 1400px){
     #Contenido-SN{
         padding-top: 50px;
         display: grid;
@@ -123,4 +123,4 @@
     #mainSN{
         height: 80vh;
     }
-}
+} 

@@ -125,7 +125,7 @@ input{
         padding-top: 300px;
     }
 }
-@media (max-width: 1400px){
+@media(max-width: 1400px) and (min-width: 991){
     #mainCont{
         height: 140vh;
         padding-top: 15%;

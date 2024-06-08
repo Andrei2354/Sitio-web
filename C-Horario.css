@@ -110,7 +110,7 @@ tr:hover {
         height: 180px;
     }
 }
-@media (max-width: 1400px){
+@media(min-width: 991) and  (max-width: 1400px){
     #mainServ{
         height: 140vh;
         padding-top: 15%;

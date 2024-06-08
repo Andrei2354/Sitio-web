@@ -237,20 +237,21 @@
   
     grid-template-columns: auto;
     grid-template-rows: auto auto;
+    margin: 0;
 }
 #arriba{
     grid-area: arriba;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
+    margin: 0;
 }
 #abajo{
     grid-area: abajo;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
+    margin: 0;
 }
 .tarjetas{
     display: flex;
@@ -263,11 +264,8 @@
 }
 .tarjeta{
     display: flex;
-    justify-content: center;
 }
 .Tarj{
-    color: black;
-    border: solid 2px rgb(6, 6, 6);
     border-radius: 10px;
     border: 1px solid #000;
     background-repeat: no-repeat;
@@ -372,16 +370,15 @@
     justify-content: space-between;
     margin: 1%;
 }
-
-@media (max-width: 990px){
+@media(max-width: 990px){
     .separador1{
         height: 1000px;
     }
+    
     .caja1{
         display: grid;
         grid-template-areas: "sec1" 
                              "sec2";
-      
         grid-template-columns: auto;
         grid-template-rows: auto;
     }
@@ -416,11 +413,6 @@
     #mainAndrei {
         width: 100%;
     }
-    .Tarj{
-        width: 150px;
-        height: 150px;
-        margin: 5%;
-    }
     .Tarj h3{
         font-size: 18px;
     
@@ -440,8 +432,13 @@
         width: 80%;
         margin-right: 5%;
     }
+    .Tarj{
+        width: 150px;
+        height: 150px;
+        margin: 1%;
+    }
 } 
-@media (max-width: 1400px){
+@media(min-width: 991) and (max-width: 1400px) {
     .separador1{
         height: 1000px;
     }
@@ -475,7 +472,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 70%;
         margin-top: 40px;
     }
     .separador3{
@@ -510,4 +506,3 @@
         margin-right: 5%;
     }
 } 
-
